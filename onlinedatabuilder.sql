@@ -28,5 +28,33 @@ CREATE TABLE AthleteEvents(
 	Medal nvarchar(255) NULL
 ); 
 
+CREATE TABLE B(
+	ba varchar(30) primary key,
+	bb varchar(50) NOT NULL
+);
+
+CREATE TABLE Books(
+	RowIndex float NULL,
+	Title nvarchar(255) NULL,
+	Authors nvarchar(255) NULL,
+	AverageRating float NULL,
+	ISBN float NULL,
+	ISBN13 float NULL,
+	LanguageCode nvarchar(255) NULL,
+	PageNum float NULL,
+	RatingsCount float NULL,
+	TextReviewsCount float NULL,
+	F11 nvarchar(255) NULL
+);
+
+CREATE TABLE C (
+	ca varchar(30) primary key,
+	cb varchar(50) NOT NULL
+);
+
+
+
+
+
 
 /*-------------------------- onlinedatabuilder ends -------------------------------*/
